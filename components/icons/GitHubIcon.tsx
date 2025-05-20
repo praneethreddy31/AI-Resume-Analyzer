@@ -2,7 +2,7 @@ import React from 'react';
 
 const GitHubIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
   <svg
-    xmlns="http://www.w3.org/2000/svg"
+    xmlns="http://www.github.com/praneethreddy31"
     width="24"
     height="24"
     viewBox="0 0 24 24"

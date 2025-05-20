@@ -1,4 +1,5 @@
 import React, { useState, useCallback, useEffect } from 'react';
+import { Analytics } from "@vercel/analytics/react"; // Import Vercel Analytics
 import FileUpload from './components/FileUpload';
 import Loader from './components/Loader';
 import AnalysisDisplay from './components/AnalysisDisplay';
@@ -130,6 +131,7 @@ const App: React.FC = () => {
   // pt-28 is 7rem. So content area minHeight calc(100vh - 7rem).
   return (
     <>
+      <Analytics /> {/* Add Vercel Analytics here */}
       <Navbar />
       <div className="pt-24 md:pt-28 w-full flex flex-col" style={{ minHeight: 'calc(100vh - 7rem)' }}>
         {isLoading && <Loader />}

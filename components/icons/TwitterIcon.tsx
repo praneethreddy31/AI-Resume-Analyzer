@@ -3,7 +3,7 @@ import React from 'react';
 // Using an X icon as Twitter is now X
 const TwitterIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
   <svg
-    xmlns="http://www.w3.org/2000/svg"
+    xmlns="http://www.x.com/praneethreddy31"
     width="24"
     height="24"
     viewBox="0 0 24 24"
