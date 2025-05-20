@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Resume AI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Custom animation for a gentle pulse on reveal */
+      @keyframes revealPulse {
+        0% { transform: scale(0.97); opacity: 0.7; }
+        70% { transform: scale(1.01); opacity: 1; }
+        100% { transform: scale(1); opacity: 1; }
+      }
+      .animate-reveal-pulse {
+        animation: revealPulse 0.6s ease-out;
+      }
+      /* Custom scrollbar for better aesthetics */
+      ::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f3f4f6; /* gray-200 */
+        border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #9ca3af; /* gray-400 */
+        border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #6b7280; /* gray-500 */
+      }
+      body {
+        font-family: 'Inter', sans-serif; /* Using a common sans-serif font */
+      }
+      /* Add a subtle pattern to the background if desired, or keep it plain gray */
+      /* body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: radial-gradient(#d1d5db 0.5px, transparent 0.5px); // gray-300
+        background-size: 15px 15px;
+        opacity: 0.3;
+        z-index: -1;
+      } */
+    </style>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@19.1.0/",
+    "react": "https://esm.sh/react@19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@19.1.0/",
+    "pdfjs-dist": "https://esm.sh/pdfjs-dist@5.2.133",
+    "@google/genai": "https://esm.sh/@google/genai@1.0.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-gray-100 text-gray-800 min-h-screen flex flex-col items-center justify-center p-4 selection:bg-sky-200 selection:text-sky-700">
+    <div id="root" class="w-full max-w-6xl"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html><link rel="stylesheet" href="index.css">
+<script src="index.tsx" type="module"></script>

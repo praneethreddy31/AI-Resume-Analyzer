@@ -1,0 +1,4 @@
+{
+  "name": "Student Resume AI",
+  "description": "Upload your PDF resume to get AI-powered feedback, an ATS score, and recommended skills. Tailored for students to improve their resumes. Uses Gemini API for analysis."
+}
