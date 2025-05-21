@@ -4,8 +4,6 @@
 
 An AI-powered resume analyzer designed to help students and job seekers improve their resumes. Upload your PDF resume to get instant feedback, an ATS compatibility score, identify strengths & weaknesses, and receive recommendations for relevant skills.
 
-**Live Demo:** [Deploy your project to Vercel and add the link here!]
-
 ## Features
 
 *   **PDF Resume Upload:** Easily upload your resume in PDF format.
@@ -112,5 +110,3 @@ This application is well-suited for deployment on static hosting platforms like 
 4.  Wait for the analysis to complete (a loader will be displayed).
 5.  View your ATS score, identified strengths, areas for improvement, and recommended skills.
 6.  Click "Analyze Another Resume" to start over.
-
-## Project Structure
